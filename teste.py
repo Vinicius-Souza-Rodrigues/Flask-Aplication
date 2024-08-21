@@ -1,7 +1,8 @@
-user = [{'username': 'MisterCrag', 'email': 'vinicanal604@gmail.com', 'password': '123'}]
+lista = [{'username' : 'MisterCrag', 'email' : 'vinicanal604@gmail.com', 'password' : '123'}, {'username' : 'vinicius', 'email' : 'sinicanal604@gmail.com', 'password' : '321'}]
 
-for a in user:
-    if a['username'] == 'MisterCrag' and a['password'] == '123':
-        print('td certo!')
-    else:
-        print('td errado!')
+username = 'vinicius'
+
+
+for a in lista:
+    if username in a['username']:
+        print('1')
